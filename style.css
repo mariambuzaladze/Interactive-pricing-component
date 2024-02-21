@@ -204,6 +204,12 @@ button {
   text-align: center;
   color: #becdff;
   border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  color: #ffffff;
 }
 
 @media screen and (min-width: 1440px) {
