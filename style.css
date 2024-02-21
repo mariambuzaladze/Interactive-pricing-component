@@ -17,3 +17,17 @@ body {
   align-items: center;
   gap: 64px;
 }
+
+header {
+  margin-top: 65px;
+  background-image: url(./images/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  color: #293356;
+}
