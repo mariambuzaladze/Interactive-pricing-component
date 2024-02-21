@@ -6,3 +6,14 @@
   box-sizing: border-box;
   font-family: Manrope;
 }
+
+body {
+  background-image: url(./images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
