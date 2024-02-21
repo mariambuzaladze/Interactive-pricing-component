@@ -151,6 +151,7 @@ input[type="range"]::-webkit-slider-thumb {
   border-radius: 15px;
   background-color: #cfd8ef;
   padding: 4px;
+  display: flex;
 }
 
 .circle {
@@ -158,6 +159,7 @@ input[type="range"]::-webkit-slider-thumb {
   height: 14px;
   border-radius: 15px;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .line {
