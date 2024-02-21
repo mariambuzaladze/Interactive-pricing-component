@@ -10,6 +10,7 @@
 body {
   background-image: url(./images/bg-pattern.svg);
   background-repeat: no-repeat;
+  background-color: #f9faff;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -18,7 +19,6 @@ body {
 }
 
 header {
-  margin-top: 65px;
   background-image: url(./images/pattern-circles.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -52,7 +52,7 @@ main {
   box-shadow: 0 20px 30px -5px rgba(127, 137, 185, 0.15);
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .top-div {
@@ -131,7 +131,7 @@ input[type="range"]::-webkit-slider-thumb {
   color: #848ead;
 }
 
-.discount {
+.discount-div {
   border-radius: 9.5px;
   background-color: #feede8;
   font-size: 10px;
@@ -139,6 +139,10 @@ input[type="range"]::-webkit-slider-thumb {
   text-align: center;
   color: #ff8d68;
   padding: 3px 8px 3px 7px;
+}
+
+.discount {
+  display: none;
 }
 
 .container {
@@ -198,4 +202,74 @@ button {
   text-align: center;
   color: #becdff;
   border: none;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-size: contain;
+  }
+
+  header {
+    gap: 12px;
+    margin-top: 40px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .sign-up {
+    font-size: 15px;
+  }
+
+  main {
+    padding: 46px;
+  }
+
+  .top-div {
+    gap: 110px;
+  }
+
+  .text {
+    flex-direction: row;
+  }
+
+  .pageviews {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .pay {
+    font-size: 40px;
+  }
+
+  .month {
+    font-size: 16px;
+  }
+
+  input {
+    top: 100px;
+  }
+
+  .discount {
+    display: inline;
+  }
+
+  .bottom-div {
+    flex-direction: row;
+    gap: 133px;
+  }
+
+  .check {
+    align-items: flex-start;
+  }
+
+  .choice {
+    justify-content: flex-end;
+    gap: 9px;
+  }
+
+  .content {
+    gap: 16px;
+  }
 }
