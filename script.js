@@ -49,8 +49,6 @@ input.addEventListener("input", function () {
   }
 });
 
-////////////////////////////////
-
 const div = document.getElementsByClassName("container")[0];
 const circle = document.getElementsByClassName("circle")[0];
 
